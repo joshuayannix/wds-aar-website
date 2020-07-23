@@ -5,132 +5,190 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All American Rejects | STORE</title>
+  <link rel='stylesheet' href='styles.css'>
+
 </head>
 
 <body>
-  <header>
-    <nav>
+
+  <header class='main-header'>
+    <nav class='nav main-nav'>
       <ul>
         <li><a href='index.html'>HOME</a></li>
         <li><a href='store.html'>STORE</a></li>
         <li><a href='about.html'>ABOUT</a></li>
       </ul>
     </nav>
-    <h1>The All-American Rejects</h1>
+    <h1 class='band-name band-name-large'>The All-American Rejects</h1>
   </header>
-  <section>
-    <h2>MUSIC</h2>
-    <div>
-      <div>
-        <strong>The All-American Rejects</strong>
+
+  <section class='content-section container'>
+
+    <h2 class='section-header'>MUSIC</h2>
+
+    <div class='shop-items'>
+
+      <div class='shop-item'>
+        <span class='shop-item-title'>The All-American Rejects</span>
+        <img class='shop-item-image' src='Images/AAR-AAR.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$5.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
       </div>
-      <img src='Images/AAR-AAR.jpg'>
-      <div>
-        <span>$5.99</span>
-        <button role='button'>ADD TO CART</button>
+
+      <div class='shop-item'>
+        <span class='shop-item-title'>The All-American Rejects</span>
+        <img class='shop-item-image' src='Images/movealong.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$5.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
       </div>
+
+      <div class='shop-item'>
+        <span class='shop-item-title'>The All-American Rejects</span>
+        <img class='shop-item-image' src='Images/aarworld.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$5.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class='shop-item'>
+        <span class='shop-item-title'>The All-American Rejects</span>
+        <img class='shop-item-image' src='Images/movealong.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$5.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class='shop-item'>
+        <span class='shop-item-title'>The All-American Rejects</span>
+        <img class='shop-item-image' src='Images/movealong.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$5.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
+      </div>
+
+
+
     </div>
-    <div>
-      <div>
-        <strong>Move Along</strong>
-      </div>
-      <img src='Images/movealong.jpg'>
-      <div>
-        <span>$19.99</span>
-        <button role='button'>ADD TO CART</button>
-      </div>
-    </div>
-    <div>
-      <div>
-        <strong>When The World Comes Down</strong>
-      </div>
-      <img src='Images/aarworld.jpg'>
-      <div>
-        <span>$23.99</span>
-        <button role='button'>ADD TO CART</button>
-      </div>
-    </div>
+
+    
+
+
   </section>
 
-  <section>
-    <h2>MERCH</h2>
-    <div>
-      <div>
-        <strong>T-SHIRT</strong>
+  <section class='container content-section'>
+
+    <h2 class='section-header'>MERCH</h2>
+    
+    <div class='shop-items'>
+
+      <div class='shop-item'>
+        <div>
+          <span class='shop-item-title'>T-SHIRT</span>
+        </div>
+        <img class='shop-item-image' src='Images/tshirt.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$59.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
       </div>
-      <img src='Images/tshirt.jpg'>
-      <div>
-        <span>$59.99</span>
-        <button role='button'>ADD TO CART</button>
+
+      <div class='shop-item'>
+        <div>
+          <span class='shop-item-title'>T-SHIRT</span>
+        </div>
+        <img class='shop-item-image' src='Images/mug.jpg'>
+        <div class='shop-item-details'>
+          <span class='shop-item-price'>$59.99</span>
+          <button class='btn btn-primary shop-item-button' type='button'>ADD TO CART</button>
+        </div>
       </div>
+
+
     </div>
-    <div>
-      <div>
-        <strong>MUG</strong>
-      </div>
-      <img src='Images/mug.jpg'>
-      <div>
-        <span>$33.99</span>
-        <button role='button'>ADD TO CART</button>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h2>CART</h2>
-    <div>
-      <strong>ITEM</strong>
-      &lt;&gt;
-      <strong>PRICE</strong>
-      &lt;&gt;
-      <strong>QUANTITY</strong>
-    </div>
-    <div>
-      <img src='Images/movealong.jpg' width='100px'>
-      <span>T-Shirt</span>
-      &lt;&gt;
-      <span>$9.99</span>
-      &lt;&gt;
-      <input type='number' value='1'>
-      <button role='button'>REMOVE</button>
-    </div>
-    <div>
-      <img src='Images/mug.jpg' width='100px'>
-      <span>Mug</span>
-      &lt;&gt;
-      <span>$9.99</span>
-      &lt;&gt;
-      <input type='number' value='1'>
-      <button role='button'>REMOVE</button>
-    </div>
-    <hr>
-    <div>
-      <strong>Total</strong>
-      <span>&46.99</span>
-    </div>
-    <div>
-      <button role='button'>PURCHASE</button>
-    </div>
+    
+
   </section>
 
-  <footer>
-    <h3>The All-American Rejects</h3>
-    <ul>
-      <li>
-        <a href='https://youtube.com' target='_blank'>
-          <img src='Images/YouTube Logo.png'>
-        </a>
-      </li>
-      <li>
-        <a href='https://spotify.com' target='_blank'>
-          <img src='Images/Spotify Logo.png'>
-        </a>
-      </li>
-      <li>
-        <a href='https://facebook.com' target='_blank'>
-          <img src='Images/Facebook Logo.png'>
-        </a>
-      </li>
-    </ul>
+
+  <section class='container content-section'>
+    <h2 class='section-header'>CART</h2>
+
+    <div class='cart-row'>
+      <span class='cart-item cart-header cart-column'>ITEM</span>
+      <span class='cart-price cart-header cart-column'>PRICE</span>
+      <span class='cart-quantity cart-header cart-column'>QUANTITY</span>
+    </div>
+
+    <div class='cart-items'>
+
+      <div class='cart-row'>
+        <div class='cart-item cart-column'>
+          <img class='cart-item-image' src='Images/movealong.jpg' width='100px'>
+          <span class='cart-item-title'>T-Shirt</span>
+        </div>
+        
+        <span class='cart-price cart-column'>$9.99</span>
+  
+        <div class='cart-quantity cart-column'>
+          <input class='cart-quantity-input' type='number' value='1'>
+          <button class='btn btn-danger' type='button'>REMOVE</button>
+        </div>      
+      </div>
+  
+      <div class='cart-row'>
+        <div class='cart-item cart-column'>
+          <img class='cart-item-image' src='Images/mug.jpg' width='100px'>
+          <span class='cart-item-title'>Mug</span>
+        </div>
+        
+        <span class='cart-price cart-column'>$9.99</span>
+  
+        <div class='cart-quantity cart-column'>
+          <input class='cart-quantity-input' type='number' value='2'>
+          <button class='btn btn-danger' type='button'>REMOVE</button>
+        </div>      
+      </div>
+
+    </div>
+    
+
+    <div class='cart-total'>
+      <span class='cart-total-title'>Total</span>
+      <span class='cart-total-price'>&46.99</span>
+    </div>
+
+    <button class='btn btn-primary btn-purchase' type='button'>PURCHASE</button>
+   
+  </section>
+
+  <footer class='main-footer'>
+    <div class='container main-footer-container'>
+      <h3 class='band-name'>The All-American Rejects</h3>
+      <ul class='nav footer-nav'>
+        <li>
+          <a href='https://youtube.com' target='_blank'>
+            <img src='Images/YouTube Logo.png'>
+          </a>
+        </li>
+        <li>
+          <a href='https://spotify.com' target='_blank'>
+            <img src='Images/Spotify Logo.png'>
+          </a>
+        </li>
+        <li>
+          <a href='https://facebook.com' target='_blank'>
+            <img src='Images/Facebook Logo.png'>
+          </a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 
